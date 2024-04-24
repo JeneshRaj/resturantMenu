@@ -2,6 +2,10 @@ import { useState } from 'react'
 import './App.css'
 import ControlInputs from './ControlInputs';
 import ToggleVisibility from './ToggleVisibility';
+import CharacterCounter from './CharacterCounter';
+import ToDoList from './ToDoList';
+import ColorSwitcher from './ColorSwitcher';
+import SearchFilter from './SearchFilter';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +30,10 @@ function App() {
     </div>
     <ControlInputs/>
     <ToggleVisibility />
+    <CharacterCounter />
+    <ToDoList/>
+    <ColorSwitcher /><br/>
+    <SearchFilter />
     </>
   )
 }
